@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71367c8e53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/S I D D H I K A.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!--<li><a href="#services">Services</a></li>-->
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onnclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!--<p>UI/UX Designer</p>-->
+                <h1 style="font-family: Bradley Hand ITC">Hi, I'm <span style="font-family: Bradley Hand ITC"> Siddhika</span>....</h1>
+                <p  style="font-family: Bradley Hand ITC">
+                    <!--I am currently pursuing my Master's of Computer<br> 
+                    Applications (MCA) at JSPM's RSCOE Tathawade Pune.<br> -->
+                    Intend to build a career with an organization, where<br> I can implement my Theoretical,
+                    Logical and Technical <br>skills in the real-life environment.
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Siddhika Sunil Gade, currently a MCA (Master of Computer Applications) student at JSPM's RSCOE Tathawade Pune, 
+                        Intend to build a career with an organization, where I can implement my Theoretical,
+                        Logical and Technical skills in the real-life environment.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Designinng Web application </li>
+                            <li><span>Python</span><br>Designinng Web application </li>
+                            <li><span>HTML, CSS, JS</span><br>Designinng Web application </li>
+                            <li><span>SQL, DBMS, phpmyadmin</span><br> Handling Web application</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                            <li><span>Generative AI Courses </span><br>Google Cloud </li>
+                            <li><span>Java Programming Fundamentals</span><br>Infosys Springboard </li>
+                            <li><span>Java (Basic)</span><br>HackerRank </li>
+                            <li><span>Problem Solving (Basic)</span><br>HackerRank </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2020</span><br>12th Science</li>
+                            <li><span>2020-2023</span><br>B.Sc Computer Science</li>
+                            <li><span>2023-2025</span><br>MCA (Master's of Computer Applications)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!------Services
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>App Design</h2>
+                    <p>hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                        hgfuiojibi dhtgvnjhgu hcvjheruitfhnuthvbyguvnr
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+    <!-------Portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/rto_m.jpg">
+                    <div class="layer">
+                        <h3>Driving License System</h3>
+                        <p>The Online Driving License System streamlines the process of applying for learning license, 
+                            driving licenses and vehicle registration, users can conveniently check the status of their
+                            applications, and access a gallery featuring office photos.<br>
+                            Languages Used: HTML, CSS, JS, PHP
+                        </p>
+                        <a href="https://github.com/siddhika-gade/Driving-Lisence-System.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/todolist.jpg">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>This allows users to add tasks, mark them as completed with a tick mark, and remove tasks from the list.<br>
+                            Languages Used: HTML, CSS, JS
+                        </p>
+                        <a href="https://github.com/siddhika-gade/To-Do-List.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/typing.jpg">
+                    <div class="layer">
+                        <h3>Typing Tester</h3>
+                        <p>Python program providing users with immediate feedback 
+                            on the number of words typed correctly within a
+                            specified time frame.<br>
+                            Language Used: PYTHON
+                        </p>
+                        <a href="https://github.com/siddhika-gade/Typing-Tester.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/siddhika-gade" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>&nbsp;&nbsp;siddhikagade2020@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>&nbsp;&nbsp;9851159600</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>                       
+
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email"required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-sharp fa-regular fa-copyright"></i> Siddhika </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3VXjgvAJseVw0qwQ9eLVdVcnOEsjHQlqsv-UpZdR9a5rqlC5mOwHoRhJzIASfYV-d/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully..!"
+            setTimeout(function(){
+            msg.innerHTML=""
+            },5000)
+            form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
